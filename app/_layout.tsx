@@ -12,8 +12,9 @@ export default function RootLayout() {
           fontWeight: 'bold',
         },
       }}>
-      <Stack.Screen name="index" />
-      <Stack.Screen name="dashboard" />
+      <Stack.Screen name="index" options={{ title: "Login" }} />
+      <Stack.Screen name="dashboard" options={{ title: "Dashboard" }} />
+
     </Stack>
   );
 }
