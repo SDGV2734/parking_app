@@ -37,7 +37,7 @@ const LoginPage = () => {
     setError(null);
     setLoading(true);
 
-    const LOCAL_IP = "http://192.168.0.190:9999"; // Replace with your local IP
+    const LOCAL_IP = "http://192.168.0.96:9999"; // Replace with your local IP
 
     try {
       const response = await fetch(`${LOCAL_IP}/login`, {
